@@ -63,7 +63,6 @@ class SearchScreen extends StatelessWidget {
                 height: 15,
               ),
               const TicketPromotion(),
-
             ],
           )
         ],

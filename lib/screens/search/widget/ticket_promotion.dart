@@ -13,8 +13,7 @@ class TicketPromotion extends StatelessWidget {
       mainAxisAlignment: MainAxisAlignment.spaceBetween,
       children: [
         Container(
-          padding: const EdgeInsets.symmetric(
-              horizontal: 15, vertical: 15),
+          padding: const EdgeInsets.symmetric(horizontal: 15, vertical: 15),
           width: size.width * .42,
           height: 435,
           decoration: BoxDecoration(
@@ -101,8 +100,8 @@ class TicketPromotion extends StatelessWidget {
               height: 15,
             ),
             Container(
-              padding: const EdgeInsets.symmetric(
-                  horizontal: 15.0, vertical: 15.0),
+              padding:
+                  const EdgeInsets.symmetric(horizontal: 15.0, vertical: 15.0),
               width: size.width * .44,
               height: 210,
               decoration: BoxDecoration(
@@ -114,8 +113,8 @@ class TicketPromotion extends StatelessWidget {
                 children: [
                   Text(
                     "Take Love",
-                    style: AppStyles.headlineStyle2
-                        .copyWith(color: Colors.white),
+                    style:
+                        AppStyles.headlineStyle2.copyWith(color: Colors.white),
                   ),
                   const SizedBox(
                     height: 10,
