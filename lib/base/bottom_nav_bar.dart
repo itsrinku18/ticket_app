@@ -40,6 +40,7 @@ class BottomNavBar extends StatelessWidget {
                   icon: Icon(FluentSystemIcons.ic_fluent_home_regular),
                   activeIcon: Icon(FluentSystemIcons.ic_fluent_home_filled),
                   label: "Home"),
+
               BottomNavigationBarItem(
                   icon: Icon(FluentSystemIcons.ic_fluent_search_regular),
                   activeIcon: Icon(FluentSystemIcons.ic_fluent_search_filled),
